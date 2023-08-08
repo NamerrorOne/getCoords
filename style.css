@@ -1,0 +1,38 @@
+.wrapper__timer {
+  min-width: 10rem;
+  min-height: 10rem;
+  background-color: rgb(71, 5, 71);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: black;
+}
+
+.timer-btn {
+  padding: 2rem 1rem;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+#input1,
+#input2,
+#input3,
+#input4 {
+  width: 1rem;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
