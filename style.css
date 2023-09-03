@@ -1,38 +1,16 @@
-.wrapper__timer {
-  min-width: 10rem;
-  min-height: 10rem;
-  background-color: rgb(71, 5, 71);
-  color: white;
+.placeholder {
+  background-color: #F7EC3F;
+  min-width: 5rem;
+  min-height: 7rem;
+  margin: 5rem auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #1d2c3b;
+  font-size: 1.2rem;
 }
 
 body {
-  background-color: black;
-}
-
-.timer-btn {
-  padding: 2rem 1rem;
-}
-
-.wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  row-gap: 2rem;
-}
-
-#input1,
-#input2,
-#input3,
-#input4 {
-  width: 1rem;
-}
-
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+  background-color: #1d2c3b;
+  padding: 2rem;
 }
