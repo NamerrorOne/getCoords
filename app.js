@@ -16,7 +16,8 @@ async function getMyCity() {
     const data = await res.json();
     console.log(data);
     placeholder.innerHTML = `
-      Информация о нахождении: <br><span>${data.city}</span>, <span>${data.locality}</span>
+      Информация о нахождении: 
+      <span>${data.city}</span>, <span>${data.locality}</span>
     `;
   } catch {
     console.log("Jшибка получения координат");
