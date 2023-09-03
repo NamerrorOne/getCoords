@@ -8,6 +8,7 @@
   justify-content: center;
   color: #1d2c3b;
   font-size: 1.2rem;
+  flex-wrap: wrap;
 }
 
 body {
