@@ -1,4 +1,4 @@
-const placeholder = document.querySelector(".placeholder");
+const placeholder = document.querySelector('.placeholder');
 function getMyCoords() {
   return new Promise((res, rej) => {
     navigator.geolocation.getCurrentPosition((pos) => {
@@ -19,8 +19,8 @@ async function getMyCity() {
       Информация о нахождении: 
       <span>${data.city}</span>, <span>${data.locality}</span>
     `;
-  } catch {
-    console.log("Jшибка получения координат");
+  } catch (err) {
+    throw new Error('Ошибка получения координат: ' + err);
   }
 }
 
